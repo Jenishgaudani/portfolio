@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jenish Gaudani - Cloud Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .gradient {
+      background: linear-gradient(to right, #667eea, #764ba2);
+    }
+  </style>
+</head>
+<body class="text-gray-900 bg-gray-100">
+
+  <!-- Navbar -->
+  <header class="gradient text-white py-6 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Jenish Gaudani</h1>
+      <nav class="space-x-4 text-lg">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center bg-white px-4" data-aos="zoom-in">
+    <h2 class="text-5xl font-extrabold mb-4">Hi, I'm Jenish Gaudani</h2>
+    <p class="text-xl mb-6">Cloud Solutions Architect | DevOps Enthusiast | IT Student</p>
+    <a href="#projects" class="bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 transition">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 bg-gray-50" data-aos="fade-right">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        I'm an IT student at Loyalist College, passionate about cloud computing and infrastructure automation. I specialize in AWS, Terraform, Docker, and am currently building multi-cloud solutions for my portfolio.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-6 bg-white" data-aos="fade-left">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-10">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Multi-Cloud Infrastructure</h3>
+          <p>Provisioned VMs on AWS, Azure, and GCP using Terraform with automated networking and least privilege access.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Containerized Portfolio</h3>
+          <p>Designed a dynamic portfolio website with Tailwind, hosted via Docker and Podman. Deployed using Terraform on GCP.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 bg-gray-100" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+      <p class="mb-4">Have a project in mind or want to collaborate?</p>
+      <p class="text-lg font-medium">Email: <a href="mailto:JenishGaudani@email.com" class="text-blue-600 underline">Jenish Gaudani@email.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="gradient text-white text-center py-4">
+    <p>&copy; 2025 Jenish Gaudani | All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
